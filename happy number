@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hactoberfest 2022</title>
+</head>
+<body>
+    <header>
+        <h1>Spooky Algorythms</h1>
+    </header>
+    <h2>camel</h2>
+    
+    <p>coding camel problem</p>
+    <pre><code>
+    
+        s = input("enter ")
+        i = 0
+        a = ""
+        lenth = len(s)
+        for c in range(lenth):
+            i+= 1
+        
+            if(s[i-1 ].isupper()):
+              a = a + "_" + s[i-1].lower();
+            else:
+                a = a + s[i-1].lower();
+        print(a)
+
+    </code></pre>
+</body>
+</html>
